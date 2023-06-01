@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.fruit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.fruit-button {
+    display: flex;
+    margin-left: 20px;
+}
+
+.fruit-button button {
+    padding: 0 5px;
+}
+
+.fruit-button span {
+    margin: 0 5px;
+}
